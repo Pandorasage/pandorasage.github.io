@@ -1,0 +1,33 @@
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    background-color: #f1f1f1;
+} /* removes list format and padding, sets a static width for the container as well as a background color */
+li a{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+} /* sets the elements in a block format adds a background color and some padding, removes text decoration aka the underline and blue text */
+li a:hover{
+    background-color: #555;
+    color: white;
+} /* changes the color of the tab when hovered */
+.active{
+    background-color: #4CAF50;
+    color: white;
+} /* changes the color of the active page in the navbar */
+ul {
+    border: 1px solid #555;
+} /* seperates the list elements into their own containers */
+li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+} /* aligns the list text to the center and adds a border to the bottom of container */
+li:last-child {
+    border-bottom: none;
+} /* removes the border of the last link in the list */
+/* vertical navbar that is static alongside one side of the screen and will follow as they scroll down */
+/* this style will likely not work as well on portable devices, possibly condense to hamburger menu on small viewports automatically and have it follow with the small crestmark logo? */
